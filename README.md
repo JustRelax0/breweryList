@@ -6,7 +6,7 @@ Here are the steps to run this application on your local Unix machine:
 
 2. Ensure that you have internet connection, open a terminal window, and navigate to wherever you cloned the breweryList repo, then navigate into breweryList
 
-3. Run command 'mkdir key.js'
+3. Run command 'touch key.js' 
 
 4. Use Vim to add the following lines to the newly-created key.js file:
 
