@@ -1,4 +1,37 @@
 .listitem {
-  margin: 10px;
-  border: solid black 5px;
+  margin: 10px auto 10px auto;
+  width: 50%;
+  border: solid black 3px;
+}
+
+.listitem:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.brewerylink:hover {
+  color: crimson;
+}
+
+.listTitle {
+  text-align: center;
+}
+
+.itemDetails {
+  text-align: center;
+}
+
+.mapUnavailable {
+  text-align: center;
+  margin: 50px auto auto auto;
+}
+
+.mapPin {
+  color: red;
+}
+
+.map {
+  height: '50vh';
+  width: '40%';
+  margin: 20px auto auto auto;
 }
