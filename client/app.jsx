@@ -65,7 +65,6 @@ class App extends React.Component {
           <div>
             <h1 className='listTitle'>Brewery List</h1>
             <List breweries={this.state.breweries} detailRender={this.detailRender} />
-            <button onClick={this.detailTest}>detailtest</button>
           </div>
         );
       } else {
